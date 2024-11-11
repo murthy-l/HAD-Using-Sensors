@@ -2,5 +2,5 @@ jupyterlab
 tqdm
 pandas
 matplotlib
-
+seaborn
 

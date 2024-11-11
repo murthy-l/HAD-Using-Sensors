@@ -1,4 +1,4 @@
-# HAD-Using-Sensors
+# Human Activity Detection Using Phone and Watch Sensors
 ## Members : 
             1) Murthy L
             2) Moushumi Mahato
