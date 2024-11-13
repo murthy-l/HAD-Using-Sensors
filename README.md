@@ -1,7 +1,7 @@
 # Human Activity Detection Using Phone and Watch Sensors
 ## Dataset
-            WISDM Smartphone and Smartwatch Activityand Biometrics Dataset
-            https://archive.ics.uci.edu/dataset/507/wisdm+smartphone+and+smartwatch+activity+and+biometrics+dataset
+[WISDM Smartphone and Smartwatch Activity and Biometrics Dataset](https://archive.ics.uci.edu/dataset/507/wisdm+smartphone+and+smartwatch+activity+and+biometrics+dataset)
+
 ## Dataset Summary
 | Metric                     | Value                     |
 |----------------------------|---------------------------|
@@ -47,8 +47,8 @@ python >= 3.8
             code/001_data_collection_preprocessing_phone_data.ipynb
             code/001_data_collection_preprocessing_phone_data.ipynb
 #### EDA
-            code/001_data_collection_preprocessing_phone_data.ipynb
-            code/001_data_collection_preprocessing_phone_data.ipynb
+            HAD-Using-Sensors/code/002_eda_phone_data.ipynb
+            HAD-Using-Sensors/code/002_eda_watch_data.ipynb
             
 
 ## Code Contributors 
