@@ -45,7 +45,7 @@ python >= 3.8
 
 #### Data Preprocessing
             code/001_data_collection_preprocessing_phone_data.ipynb
-            code/001_data_collection_preprocessing_phone_data.ipynb
+            code/001_data_collection_preprocessing_watch_data.ipynb
 #### EDA
             HAD-Using-Sensors/code/002_eda_phone_data.ipynb
             HAD-Using-Sensors/code/002_eda_watch_data.ipynb
