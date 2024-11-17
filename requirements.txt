@@ -3,4 +3,5 @@ tqdm
 pandas
 matplotlib
 seaborn
-
+librosa
+pydot
