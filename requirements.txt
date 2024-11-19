@@ -8,3 +8,6 @@ mlxtend
 tensorflow[and-cuda]
 librosa
 pydot
+scikit-learn
+mlxtend
+tensorflow[and-cuda]
