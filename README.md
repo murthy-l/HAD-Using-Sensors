@@ -49,6 +49,13 @@ python >= 3.8
 #### EDA
             HAD-Using-Sensors/code/002_eda_phone_data.ipynb
             HAD-Using-Sensors/code/002_eda_watch_data.ipynb
+#### Training
+###### LSTM
+            HAD-Using-Sensors/code/003_train_phone_data_lstm.ipynb
+            HAD-Using-Sensors/code/003_train_watch_data_lstm.ipynb
+###### GRU
+            HAD-Using-Sensors/code/003_train_phone_data_gru.ipynb
+            HAD-Using-Sensors/code/003_train_watch_data_gru.ipynb
             
 
 ## Code Contributors 
