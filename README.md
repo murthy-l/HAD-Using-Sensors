@@ -53,6 +53,18 @@ python >= 3.8
             HAD-Using-Sensors/code/003_feature_extraction.ipynb
 
 #### Training
+###### Logistic regression
+            HAD-Using-Sensors/code/004_train_logisticregression_phone.ipynb
+            HAD-Using-Sensors/code/004_train_logisticregression_watch.ipynb
+
+###### Random forest
+            HAD-Using-Sensors/code/004_train_randomforest_phone.ipynb
+            HAD-Using-Sensors/code/004_train_randomforest_watch.ipynb
+
+###### KNN
+            HAD-Using-Sensors/code/004_train_knn_watch.ipynb
+            HAD-Using-Sensors/code/004_train_knn_phone.ipynb
+
 ###### LSTM
             HAD-Using-Sensors/code/004_train_phone_data_lstm.ipynb
             HAD-Using-Sensors/code/004_train_watch_data_lstm.ipynb
