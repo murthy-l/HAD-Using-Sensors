@@ -3,16 +3,8 @@ tqdm
 pandas
 matplotlib
 seaborn
-<<<<<<< HEAD
-=======
 scikit-learn
 mlxtend
 tensorflow[and-cuda]
-librosa
-pydot
-scikit-learn
-mlxtend
-tensorflow[and-cuda]
->>>>>>> af4cce0d03a4f352ed2f7b59c5a7c076f6ef3266
 librosa
 pydot
