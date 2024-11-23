@@ -50,9 +50,13 @@ python >= 3.8
             code/002_eda_phone_data.ipynb
             code/002_eda_watch_data.ipynb
 #### Feature extraction
+Performs signal processing and generates processed dataset in dataset/ folder
+
             code/003_feature_extraction.ipynb
 
 #### Training
+Note: Prerequisite to execute above feature extraction since Logistic regression, Random forest and KNN works on feature extracted dataset.
+
 ###### Logistic regression
             code/004_1_train_logisticregression_phone.ipynb
             code/004_1_train_logisticregression_watch.ipynb
@@ -65,13 +69,73 @@ python >= 3.8
             code/004_3_train_knn_phone.ipynb
             code/004_3_train_knn_watch.ipynb
 
+
+
 ###### LSTM
             code/004_4_train_lstm_phone.ipynb
             code/004_4_train_lstm_watch.ipynb
 ###### GRU
             code/004_5_train_gru_phone.ipynb
             code/004_5_train_gru_watch.ipynb
-            
+#### Results
+
+###### Logistic regression
+| Sensor                | Accuracy |
+|-----------------------|----------|
+| Phone Accelerometer   |  0.4472  | 
+| Phone GyroScope       |  0.4001  |
+| Watch Accelerometer   |  0.7150  |
+| Watch GyroScope       |  0.6126  |
+
+###### Random forest
+| Sensor                | Accuracy |
+|-----------------------|----------|
+| Phone Accelerometer   |  0.8399  | 
+| Phone GyroScope       |  0.6249  |
+| Watch Accelerometer   |  0.8331  |
+| Watch GyroScope       |  0.7332  |
+
+###### KNN
+| Sensor                | Accuracy |
+|-----------------------|----------|
+| Phone Accelerometer   |  0.6385  | 
+| Phone GyroScope       |  0.4529  |
+| Watch Accelerometer   |  0.62811 |
+| Watch GyroScope       |  0.5216  |
+
+
+
+###### LSTM
+| Sensor                | Accuracy |
+|-----------------------|----------|
+| Phone Accelerometer   |          | 
+| Phone GyroScope       |          |
+| Watch Accelerometer   |          |
+| Watch GyroScope       |          |
+| Phone Accel & Gyro    |          |
+| Watch Accel & Gyro    |          |
+| All 4 sensor          |          |
+
+Special case where 15 actions were classified
+| Sensor                | Accuracy |
+|-----------------------|----------|
+| All 4 sensor          |          |
+
+###### GRU
+| Sensor                | Accuracy |
+|-----------------------|----------|
+| Phone Accelerometer   |          | 
+| Phone GyroScope       |          |
+| Watch Accelerometer   |          |
+| Watch GyroScope       |          |
+| Phone Accel & Gyro    |          |
+| Watch Accel & Gyro    |          |
+| All 4 sensor          |          |
+
+Special case where 15 actions were classified
+| Sensor                | Accuracy |
+|-----------------------|----------|
+| All 4 sensor          |          |
 
 ## Code Contributors 
             1) Murthy L
