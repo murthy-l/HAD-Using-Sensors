@@ -108,10 +108,10 @@ Note: Prerequisite to execute above feature extraction since Logistic regression
 ###### LSTM
 | Sensor                | Accuracy |
 |-----------------------|----------|
-| Phone Accelerometer   |          | 
-| Phone GyroScope       |          |
-| Watch Accelerometer   |          |
-| Watch GyroScope       |          |
+| Phone Accelerometer   |  0.2575  | 
+| Phone GyroScope       |  0.4937  |
+| Watch Accelerometer   |  0.7497  |
+| Watch GyroScope       |  0.7657  |
 | Phone Accel & Gyro    |          |
 | Watch Accel & Gyro    |          |
 | All 4 sensor          |          |
