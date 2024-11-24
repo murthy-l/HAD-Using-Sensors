@@ -119,7 +119,7 @@ Note: It is prerequisite to execute above feature extraction since Logistic regr
 | Watch Accel & Gyro    |  85.19     |
 | All 4 Sensors         |  85.11     |
 
-Special case where 15 activities* were classified
+Special case where 15 activities¹ were classified
 | Sensors               | Accuracy(%)|
 |-----------------------|------------|
 | All 4 Sensors         |  89.32     |
@@ -135,12 +135,12 @@ Special case where 15 activities* were classified
 | Watch Accel & Gyro    |  88.14     |
 | All 4 Sensors         |  88.06     |
 
-Special case where 15 activities* were classified
+Special case where 15 activities¹ were classified
 | Sensors               | Accuracy(%)|
 |-----------------------|------------|
 | All 4 Sensors         |  92.27     |
 
-* dropping "eating chips", "eating pasta", "eating sandwich" activities.
+¹ dropping "eating chips", "eating pasta", "eating sandwich" activities.
 
 ## Code Contributors 
             1) Murthy L
