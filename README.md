@@ -8,7 +8,7 @@
 | Number of subjects             | 51                                     |
 | Number of activities           | 18                                     |
 | Minutes collected per activity | 3                                      |
-| Sensor polling rate            | 20Hz                                   |
+| Sensorspolling rate            | 20Hz                                   |
 | Smartphone used                | Google Nexus 5/5X or Samsung Galaxy S5 |
 | Smartwatch used                | LG G Watch                             |
 | Number of raw measurements     | 15,630,426                             |
@@ -83,7 +83,7 @@ Note: It is prerequisite to execute above feature extraction since Logistic regr
 
 
 ###### Logistic regression
-| Sensor                | Accuracy(%)|
+| Sensors               | Accuracy(%)|
 |-----------------------|------------|
 | Phone Accelerometer   |  46.80     | 
 | Phone Gyroscope       |  40.20     |
@@ -91,7 +91,7 @@ Note: It is prerequisite to execute above feature extraction since Logistic regr
 | Watch Gyroscope       |  61.39     |
 
 ###### Random forest
-| Sensor                | Accuracy(%)|
+| Sensors               | Accuracy(%)|
 |-----------------------|------------|
 | Phone Accelerometer   |  83.51     | 
 | Phone Gyroscope       |  63.49     |
@@ -99,7 +99,7 @@ Note: It is prerequisite to execute above feature extraction since Logistic regr
 | Watch Gyroscope       |  73.66     |
 
 ###### KNN
-| Sensor                | Accuracy(%)|
+| Sensors               | Accuracy(%)|
 |-----------------------|------------|
 | Phone Accelerometer   |  64.68     | 
 | Phone Gyroscope       |  44.87     |
@@ -109,7 +109,7 @@ Note: It is prerequisite to execute above feature extraction since Logistic regr
 
 
 ###### LSTM
-| Sensor                | Accuracy(%)|
+| Sensors               | Accuracy(%)|
 |-----------------------|------------|
 | Phone Accelerometer   |  25.75     | 
 | Phone Gyroscope       |  49.37     |
@@ -117,15 +117,15 @@ Note: It is prerequisite to execute above feature extraction since Logistic regr
 | Watch Gyroscope       |  76.57     |
 | Phone Accel & Gyro    |  52.79     |
 | Watch Accel & Gyro    |  85.19     |
-| All 4 sensor          |  85.11     |
+| All 4 Sensors         |  85.11     |
 
 Special case where 15 activities* were classified
-| Sensor                | Accuracy(%)|
+| Sensors               | Accuracy(%)|
 |-----------------------|------------|
-| All 4 sensor          |  89.32     |
+| All 4 Sensors         |  89.32     |
 
 ###### GRU
-| Sensor                | Accuracy(%)|
+| Sensors               | Accuracy(%)|
 |-----------------------|------------|
 | Phone Accelerometer   |  30.10     | 
 | Phone Gyroscope       |  53.03     |
@@ -133,12 +133,12 @@ Special case where 15 activities* were classified
 | Watch Gyroscope       |  80.80     |
 | Phone Accel & Gyro    |  58.18     |
 | Watch Accel & Gyro    |  88.14     |
-| All 4 sensor          |  88.06     |
+| All 4 Sensors         |  88.06     |
 
 Special case where 15 activities* were classified
-| Sensor                | Accuracy(%)|
+| Sensors               | Accuracy(%)|
 |-----------------------|------------|
-| All 4 sensor          |  92.27     |
+| All 4 Sensors         |  92.27     |
 
 * dropping "eating chips", "eating pasta", "eating sandwich" activities.
 
