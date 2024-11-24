@@ -41,48 +41,48 @@ python >= 3.8
 
     pip install -r requirements.txt
 
-## Execution Steps:
 
-#### Data Preprocessing
+
+## Data Preprocessing
             code/001_data_collection_preprocessing_phone_data.ipynb
             code/001_data_collection_preprocessing_watch_data.ipynb
-#### EDA
+## EDA
             code/002_eda_phone_data.ipynb
             code/002_eda_watch_data.ipynb
-#### Feature extraction
+## Feature extraction
 Performs signal processing and generates processed dataset in dataset/ folder
 
             code/003_feature_extraction.ipynb
 
-#### Training
+## Training
 Note: It is prerequisite to execute above feature extraction since Logistic regression, Random forest and KNN works on feature extracted dataset.
 
-###### Logistic regression
+#### Logistic regression
             code/004_1_train_logisticregression_phone.ipynb
             code/004_1_train_logisticregression_watch.ipynb
 
-###### Random forest
+#### Random forest
             code/004_2_train_randomforest_phone.ipynb
             code/004_2_train_randomforest_watch.ipynb
 
-###### KNN
+#### KNN
             code/004_3_train_knn_phone.ipynb
             code/004_3_train_knn_watch.ipynb
 
 
 
-###### LSTM
+#### LSTM
             code/004_4_train_lstm_phone.ipynb
             code/004_4_train_lstm_watch.ipynb
             code/004_4_train_lstm.ipynb
-###### GRU
+#### GRU
             code/004_5_train_gru_phone.ipynb
             code/004_5_train_gru_watch.ipynb
             code/004_5_train_gru.ipynb
-#### Results
+## Results
 
 
-###### Logistic regression
+#### Logistic regression
 | Sensors               | Accuracy(%)|
 |-----------------------|------------|
 | Phone Accelerometer   |  46.80     | 
@@ -90,7 +90,7 @@ Note: It is prerequisite to execute above feature extraction since Logistic regr
 | Watch Accelerometer   |  72.45     |
 | Watch Gyroscope       |  61.39     |
 
-###### Random forest
+#### Random forest
 | Sensors               | Accuracy(%)|
 |-----------------------|------------|
 | Phone Accelerometer   |  83.51     | 
@@ -98,7 +98,7 @@ Note: It is prerequisite to execute above feature extraction since Logistic regr
 | Watch Accelerometer   |  82.75     |
 | Watch Gyroscope       |  73.66     |
 
-###### KNN
+#### KNN
 | Sensors               | Accuracy(%)|
 |-----------------------|------------|
 | Phone Accelerometer   |  64.68     | 
@@ -108,7 +108,7 @@ Note: It is prerequisite to execute above feature extraction since Logistic regr
 
 
 
-###### LSTM
+#### LSTM
 | Sensors               | Accuracy(%)|
 |-----------------------|------------|
 | Phone Accelerometer   |  25.75     | 
@@ -124,7 +124,7 @@ Special case where 15 activities* were classified
 |-----------------------|------------|
 | All 4 Sensors         |  89.32     |
 
-###### GRU
+#### GRU
 | Sensors               | Accuracy(%)|
 |-----------------------|------------|
 | Phone Accelerometer   |  30.10     | 
