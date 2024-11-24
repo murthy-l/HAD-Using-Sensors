@@ -74,11 +74,11 @@ Note: It is prerequisite to execute above feature extraction since Logistic regr
 ###### LSTM
             code/004_4_train_lstm_phone.ipynb
             code/004_4_train_lstm_watch.ipynb
-            code/004_6_train_lstm.ipynb
+            code/004_4_train_lstm.ipynb
 ###### GRU
             code/004_5_train_gru_phone.ipynb
             code/004_5_train_gru_watch.ipynb
-            code/004_6_train_lstm.ipynb
+            code/004_5_train_gru.ipynb
 #### Results
 
 
